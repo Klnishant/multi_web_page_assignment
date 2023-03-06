@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px,0;
+}
+
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    padding-right: 300px;
+}
+
+.beatslogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    position: relative;
+    top: 15px;
+}
+
+.menu_items{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.menu_items li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.shop_button{
+    background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+  color: white;
+  margin-top: 7px;
+}
+
+.main{
+    display: flex;
+    gap: 200px;
+}
+
+.left_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-left: 200px;
+}
+
+.main_image{
+    width: 250px;
+    position: relative;
+    top: -220px;
+    left: 70px;
+}
+
+.right_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 50px;
+}
+
+.on_ear{
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.Beats{
+    color: white;
+    font-size: 60px;
+}
+
+.overview{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: rgb(160, 160, 160);
+    width: 250px;
+    margin-top: 30px;
+}
+
+.bag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #1e1e21;
+    border: 1px black;
+    border-radius: 10px;
+}
+
+.cart{
+    color: white;
+}
+
+.price{
+    color: white;
+}
+
+.company_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.specification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.spec_details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.bluetooth{
+    padding-left: 40px;
+}
+
+.mic{
+    padding-left: 40px;
+}
+
+.case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.case_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+
+.case_description{
+    width: 220px;
+    color: white;
+    margin-top: 20px;
+}
+
+.info_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1e1e21;
+    gap: 20px;
+    padding: 10px;
+    border: 1px black;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black;
+    border-radius: 10px;
+    gap: 50px;
+    height: 400px;
+    width: 1000px;
+    background-color: #1e1e21;
+    color: white;
+    margin-top: 70px;
+}
+
+.discount{
+    margin-top: 20px;
+    color: gray;
+}
+
+.buy_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose_logo{
+    margin-top: 70px;
+    scale: 0.7;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 90px;
+    row-gap: 90px;
+    margin-top: 50px;
+}
+
+.product_cart{
+    height: 200px;
+    width: 200px;
+    background-color: #181a1b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.shop_icon{
+    background-color: black;
+    padding: 2px 6px;
+    border-radius: 8px;
+}
+
+.product_image{
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
+.product_image img{
+    position: absolute;
+    z-index: 1;
+    height: 25vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 70px;
+}
+
+.logo{
+    padding-left: 200px;
+}
+
+.product_items{
+    margin-top: 10px;
+}
+
+.support_items{
+    margin-top: 10px;
+}
+
+.input input{
+    height: 60px;
+    width: 350px;
+    background-color: #1e1e21;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    cursor: text;
+    color: white;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 45px;
+    width: 150px;
+    position: relative;
+    left: 190px;
+    top: -52px;
+    border-radius: 10px;
+}
+
+.subscribe:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 3s;
+}
+
+.social_media{
+    display: flex;
+    gap: 25px;
+}
